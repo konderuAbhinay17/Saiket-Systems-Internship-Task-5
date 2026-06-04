@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>My First Blog</title>
+
+    <link rel="stylesheet" href="2.style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav>
+
+        <h1>My Blog</h1>
+
+    </nav>
+
+    <!-- Main Container -->
+
+    <div class="container">
+
+        <!-- Blog Form -->
+
+        <div class="blog-form">
+
+            <h2>Create Blog Post</h2>
+
+            <input type="text"
+                   id="title"
+                   placeholder="Enter blog title">
+
+            <textarea id="content"
+                      rows="6"
+                      placeholder="Write your blog here...">
+            </textarea>
+
+            <button onclick="addBlog()">
+                Publish Blog
+            </button>
+
+        </div>
+
+        <!-- Blog Posts -->
+
+        <div class="blog-posts"
+             id="blogPosts">
+
+        </div>
+
+    </div>
+
+    <script src="3.script.js"></script>
+
+</body>
+
+</html>
